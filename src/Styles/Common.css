@@ -1,0 +1,127 @@
+.bg-color1 {
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bg-color2 {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.Homepage {
+}
+
+.chips-padding {
+    margin: 3px;
+}
+
+.text-Color {
+}
+
+.projects-grid {
+    display: flex;
+    margin: auto;
+}
+
+/* Resume Page css */
+.resume-right-col {
+    background: #27221F;
+    color: white;
+    padding: 2em;
+}
+
+/* contact page css */
+
+.contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+
+.contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-list i {
+    font-size: 66px;
+    padding-right: 5rem;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+    height: 250px;
+    padding-top: 5em;
+    margin-bottom: 50px;
+}
+
+.banner-text {
+    background-color: black;
+    min-width: 45%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    padding-top: 25px;
+    font-size: 56px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+
+.banner-text h5 {
+    padding-top: 15px;
+    font-size: 26px;
+    color: white;
+}
+
+.black-card-title{
+    color: black;
+}
+
+.banner-text p {
+    color: white;
+    font-size: 20px;
+}
+
+.social-links i {
+    color: white;
+    font-size: 3em;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-content: center;
+}
+
+.mdl-cell {
+    margin: 8px;
+    width: inherit;
+}
