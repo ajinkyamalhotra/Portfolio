@@ -1,6 +1,7 @@
 import React from 'react';
-import {Grid, Cell, Button} from "react-mdl";
+import {Grid, Cell} from "react-mdl";
 import '../Styles/Common.css';
+import Button from '@material-ui/core/Button';
 
 class HomePage extends React.Component{
   render(){
@@ -19,12 +20,15 @@ class HomePage extends React.Component{
 
               <p>Java | C/C++ | CUDA | HTML | CSS | SQL | JavaScript | ReactJS</p>
 
-              <Button raised ripple primary
+              <Button size="large"
+                      style={{marginTop: "5px", borderRadius: "25px"}}
+                      variant="contained"
+                      color="primary"
                       href="http://localhost:3000/resume.pdf"
                       rel="noopener noreferrer"
-                      target="_blank"
-                      style={{width: '5%', height: '50%', borderRadius: '20px'}}>Resume</Button>
-
+                      target="_blank">
+                <h6 style={{margin: "0px"}}>Resume</h6>
+              </Button>
             </div>
           </Cell>
         </Grid>
