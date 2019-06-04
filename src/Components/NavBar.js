@@ -18,11 +18,11 @@ class NavBar extends Component {
             </Navigation>
           </span></span>}>
             <Navigation>
-              <Link to={"/"}><h5 style={{marginTop: '16px'}}>Home</h5></Link>
-              <Link to="/projects"><h5 style={{marginTop: '16px'}}>Projects</h5></Link>
-              <a href="http://localhost:3000/resume.pdf" rel="noopener noreferrer" target="_blank"><h5 style={{marginTop: '16px'}}>Resume</h5></a>
-              <Link to="/aboutme"><h5 style={{marginTop: '16px'}}>About Me</h5></Link>
-              <Link to="/contact"><h5 style={{marginTop: '16px'}}>Contact Me</h5></Link>
+              <Link to={"/"}><h6 style={{marginTop: '16px'}}>Home</h6></Link>
+              <Link to="/projects"><h6 style={{marginTop: '16px'}}>Projects</h6></Link>
+              <a href="http://localhost:3000/resume.pdf" rel="noopener noreferrer" target="_blank"><h6 style={{marginTop: '16px'}}>Resume</h6></a>
+              <Link to="/aboutme"><h6 style={{marginTop: '16px'}}>About Me</h6></Link>
+              <Link to="/contact"><h6 style={{marginTop: '16px'}}>Contact Me</h6></Link>
             </Navigation>
           </Header>
           <Content style={{padding: '10px'}}>
